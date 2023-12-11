@@ -14,7 +14,8 @@ Group members: Gordon Suhr, Luka Namoradze, Eva Urankar
 
 - Our Code is stored in a [Jupyter Notebook](./Code.ipynb) that includes explanations for every step
 - The [data](./data) we worked on
-- [Other submissions](top_submissions) that some of our ensemble methods are based on 
+- [Our submissions](./our_submissions/)
+- [Other submissions](./top_submissions) that some of our ensemble methods are based on 
 - The [CRISP-DM report](./F1_report.pdf) for Homework 10
 
 ## How to replicate our code
