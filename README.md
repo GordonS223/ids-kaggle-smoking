@@ -1,19 +1,21 @@
 # IDS Project - KAGGLE-SMOKING
 
-## TODOs:
-- Finish coding part
-- Make structured .ipynb files and add all required files to the repositories / packages to the list at *How to replicate our code*
-- Fulfill *Requirements about the code repository*
----
+For the course Introduction to Data Science in Autumn 2023/24 at the University of Tartu, we developed a classification model for the Kaggle competition [Binary Prediction of Smoker Status using Bio-Signals](https://www.kaggle.com/competitions/playground-series-s3e24/).
 
-For the course Introduction to Data Science in Autumn 2023/24, we develop a classification model for the Kaggle competition [Binary Prediction of Smoker Status using Bio-Signals](https://www.kaggle.com/competitions/playground-series-s3e24/).
+Smoking remains a significant public health concern, impacting overall well-being and leading to various
+health complications. Understanding smoking behavior through predictive modeling contributes to
+tailored interventions and early detection of health risks.
+
+The project aims to utilize bio-signals and health indicators to predict an individual's smoking status.
 
 Group members: Gordon Suhr, Luka Namoradze, Eva Urankar
 
 ## Content
 
-- [Code](./Code.ipynb)
-- [Homework 10](./F1_report.pdf)
+- Our Code is stored in a [Jupyter Notebook](./Code.ipynb) that includes explanations for every step
+- The [data](./data) we worked on
+- [Other submissions](top_submissions) that some of our ensemble methods are based on 
+- The [CRISP-DM report](./F1_report.pdf) for Homework 10
 
 ## How to replicate our code
 
@@ -21,18 +23,5 @@ We developed our prediction models using Python in the [Jupyter Notebook](https:
 - pandas
 - numpy
 - seaborn
-- (...) **TODO: check which ones**
-
----
-
-## (to be removed) Requirements about the code repository
-
-These are taken from the project requirements slides:
-
-- The front page must:
-  - Present the name of the project and the authors
-  - Provide the motivation and goal of the project
-  - Provide a guide to the contents of the repository
-- Explain how it is possible to take the code and replicate the same analysis that the authors have done
-- The repository should contain enough explanations so that it is possible for an experienced programmer to understand what code is where and what different parts of code do.
-- The repository can contain code for which the results are not presented at the poster. This can help us better assess the amount of work you have done.
+- matplotlib
+- sklearn
